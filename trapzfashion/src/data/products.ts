@@ -1,5 +1,32 @@
 import mario from '../assets/Tshirts/Bring your Childhood/Mario/Mario.png'
 import mario2 from '../assets/Tshirts/Bring your Childhood/Mario/2.png'
+import mario3 from '../assets/Tshirt/Bring your Childhood/Mario/3.png'
+import mario4 from '../assets/Tshirt/Bring your Childhood/Mario/4.png'
+import candycrush from '../assets/Tshirt/Bring your Childhood/CandyCrush/main image.jpg'
+import candycrush2 from '../assets/Tshirt/Bring your Childhood/CandyCrush/image2.jpg'
+import candycrush3 from '../assets/Tshirt/Bring your Childhood/CandyCrush/image3.jpg'
+import pubg from '../assets/Tshirt/Bring your Childhood/Pubg/Main.png'
+import pubg2 from '../assets/Tshirt/Bring your Childhood/Pubg/2.png'
+import pubg3 from '../assets/Tshirts/Bring your Childhood/Pubg/3.png'
+import subway from '../assets/Tshirts/Bring your Childhood/Subway Surfer/main.png'
+import subway2 from '../assets/Tshirts/Bring your Childhood/Subway Surfer/2.png'
+import subway3 from '../assets/Tshirts/Bring your Childhood/Subway Surfer/3.png'
+import subway4 from '../assets/Tshirts/Bring your Childhood/Subway Surfer/5.png'
+import temple from '../assets/Tshirts/Bring your Childhood/Temple Run/MAin.png'
+import temple2 from '../assets/Tshirts/Bring your Childhood/Temple Run/2.png'
+import temple3 from '../assets/Tshirts/Bring your Childhood/Temple Run/3.png'
+import snake from '../assets/Tshirts/Trap Themed/Trap Red Snake/main image.png'
+import snake2 from '../assets/Tshirts/Trap Themed/Trap Red Snake/Front (32).png'
+import snake3 from '../assets/Tshirts/Trap Themed/Trap Red Snake/Image2.png'
+import snake4 from '../assets/Tshirts/Trap Themed/Trap Red Snake/image3.png'
+import snake5 from '../assets/Tshirts/Trap Themed/Trap Red Snake/Back (9).png'
+import snake6 from '../assets/Tshirts/Trap Themed/Trap Red Snake/Size Chart (3).png'
+
+
+
+
+
+
 // same goes on for importing all the images and using them in different products!!!!!!!
 import { Product } from '../types';
 
@@ -29,35 +56,37 @@ export interface KeyHighlights {
 export const products: Product[] = [
   {
     id: 1,  // so we have id for different products like1,2,3,4.....
-    name: 'Mario T-Shirt',
+    name: 'TRAP “Super Mario Legacy” Tee',
     brandLogo: mario,
     images: [
       mario,
       mario2,
+      mario3,
+      mario4,
       '/assets/Tshirts/Bring your Childhood/Mario/Mario-detail.png',
       '/assets/Tshirts/Bring your Childhood/Mario/Mario-wear.png'
     ],
-    price: '599 Rs.',
+    price: '839 Rs.',
     availability: 'In Stock',
     category: 'T-Shirts',
     collection: 'Bring your Childhood',
-    description: 'A nostalgic Mario-themed t-shirt that brings back childhood memories.',
+    description: 'Old School Vibes. Game-On Mentality.',
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     isFeatured: true,
     isNewArrival: true,
     keyHighlights: {
-      design: 'Graphic Print',
-      fit: 'Regular Fit',
+      design: 'Mario in action, with a motivational quote backdrop from the world of the Mushroom Kingdom',
+      fit: 'Oversized',
       neck: 'Round Neck',
-      occasion: 'Casual Wear',
+      occasion: 'Street Wear',
       sleeveStyle: 'Half Sleeve',
       washCare: 'Gentle Machine Wash'
     },
-    fullDescription: 'Relive your childhood memories with this officially licensed Mario-themed t-shirt. Made from 100% premium cotton, this comfortable t-shirt features vibrant graphics of the iconic Nintendo character. The regular fit ensures comfort while maintaining style, making it perfect for casual outings or gaming sessions.',
+    fullDescription: 'It’s-a-me, your new favorite tee! This one’s for every 90s kid, console junkie, and dream chaser. Whether you’re dodging Goombas or real-life problems — this shirt reminds you: “Keep jumping. Keep going. The game isn’t over until you win.”',
     manufactureAndCare: 'Made from 100% premium cotton. Machine wash cold, tumble dry low. Do not bleach. Iron on reverse side if needed.',
-    returnPolicy: '15 Days Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
     deliveryInfo: {
-      standardDelivery: '3-5 business days',
+      standardDelivery: '6-7 business days',
       expressDelivery: '1-2 business days',
       pincodeDelivery: true
     },
@@ -65,29 +94,33 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: 'CSK T-Shirt',
+    name: 'Candy Crush T-Shirt',
     brandLogo: '/assets/images/default-featured.png',
-    images: ['/assets/images/default-featured.png'],
-    price: '$59.99',
-    availability: 'Available online only',
+    images: [
+      candycrush,
+      candycrush2,
+      candycrush3,
+      '/assets/images/default-featured.png'],
+    price: 'Rs. 839',
+    availability: 'Few Left',
     category: 'T-Shirts',
-    collection: 'Sports',
-    description: 'Official CSK team t-shirt with team colors and logo.',
+    collection: 'Bring your Childhood',
+    description: 'Life’s a game—crush it in style.',
     sizes: ['S', 'M', 'L', 'XL'],
     isFeatured: true,
     keyHighlights: {
-      design: 'Official Team Merchandise',
-      fit: '100% Cotton',
+      design: 'Full-Color Game-Inspired Back Print – Packed with candy graphics and nostalgic vibes',
+      fit: 'Oversized',
       neck: 'Round Neck',
-      occasion: 'Casual Wear',
+      occasion: 'Street Wear',
       sleeveStyle: 'Half Sleeve',
       washCare: 'Machine Washable'
     },
-    fullDescription: 'Show your support for Chennai Super Kings with this official team t-shirt. Features the team logo and colors, made from high-quality cotton for comfort and durability.',
+    fullDescription: 'This one’s for the sweet tooths and silent grinders. The front? Minimal, nostalgic flex with the OG Candy Crush logo. Flip it and boom—your whole childhood lights up. A full back graphic bursting with color, candy pieces, and that signature TRAP streetwear edge. It’s playful, it’s iconic, and it hits harder than a sugar rush.',
     manufactureAndCare: 'Machine wash cold. Tumble dry low. Do not bleach.',
-    returnPolicy: '30 days return policy. Items must be unworn and in original condition with tags attached.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
     deliveryInfo: {
-      standardDelivery: '3-5 business days',
+      standardDelivery: '6-7 business days',
       expressDelivery: '1-2 business days',
       pincodeDelivery: true
     },
@@ -95,30 +128,34 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    name: 'Vintage Denim Jacket',
+    name: 'TRAP “If You Lose, You Die” Tee',
     brandLogo: '/assets/images/default-featured.png',
-    images: ['/assets/images/default-featured.png'],
-    price: '$129.99',
-    availability: 'Available in all stores',
-    category: 'Jackets',
-    collection: 'Vintage Collection',
-    description: 'Classic denim jacket with a modern twist, perfect for any casual occasion.',
+    images: [
+      pubg,
+      pubg2,
+      pubg3,
+      '/assets/images/default-featured.png'],
+    price: 'Rs. 849',
+    availability: 'Available',
+    category: 'T-Shirts',
+    collection: 'Bring your Childhood',
+    description: 'Not just a game. It’s survival.',
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     isFeatured: true,
     isBestSeller: true,
     keyHighlights: {
-      design: 'Classic Denim',
-      fit: 'Regular Fit',
-      neck: 'Collar',
-      occasion: 'Casual Wear',
+      design: 'Front Chest Logo – Minimal PUBG Mobile badge for that gamer rep & Full-Back Action Graphic – Explosions, loot, guns, and the lone warrior ready to win',
+      fit: 'Oversized',
+      neck: 'Round',
+      occasion: 'Street Wear',
       sleeveStyle: 'Full Sleeve',
       washCare: 'Machine Washable'
     },
-    fullDescription: 'A timeless denim jacket that combines classic style with modern comfort. Perfect for layering in any season, this jacket features a regular fit and premium denim construction.',
-    manufactureAndCare: 'Machine wash cold. Tumble dry low. Do not bleach.',
-    returnPolicy: '30 days return policy. Items must be unworn and in original condition with tags attached.',
+    fullDescription: 'This tee is for the ones who drop hot, aim true, and never camp. Front stays sleek with the PUBG Mobile badge. But the back? A full-blown battleground—flames, loot, and the iconic warrior standing tall. Message is simple: “If You Lose, You Die.” No excuses. No respawns. Just pure pressure.',
+    manufactureAndCare: 'Machine wash cold.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
     deliveryInfo: {
-      standardDelivery: '2-4 business days',
+      standardDelivery: '6-7 business days',
       expressDelivery: '1-2 business days',
       pincodeDelivery: true
     },
@@ -126,43 +163,110 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    name: 'Premium Hoodie',
+    name: 'TRAP “Subway Surfers – Run Fast” Tee',
     brandLogo: '/assets/images/default-featured.png',
-    images: ['/assets/images/default-featured.png'],
-    price: '$79.99',
-    availability: 'Available in all stores',
-    category: 'Hoodies',
-    collection: 'Winter Collection',
-    description: 'Comfortable and stylish hoodie made from premium materials.',
+    images: [
+      subway,
+      subway2,
+      subway3,
+      subway4,
+      '/assets/images/default-featured.png'],
+    price: 'Rs. 845',
+    availability: 'Available',
+    category: 'T-Shirts',
+    collection: 'Bring your Childhood',
+    description: 'Run Fast. Chase Your Dream.',
     sizes: ['S', 'M', 'L', 'XL'],
     isFeatured: true
+        keyHighlights: {
+      design: 'Front Chest Logo: Subway Surfers style graphic — clean, bold, and iconic & Back Print: Main characters mid-run, coins flying, obstacles dropping — pure arcade chaos',
+      fit: 'Oversized',
+      neck: 'Round',
+      occasion: 'Street Wear',
+      sleeveStyle: 'Full Sleeve',
+      washCare: 'Machine Washable'
+    },
+    fullDescription: 'It’s not just about dodging trains, it’s about dodging excuses. This tee brings back that endless-runner energy—where speed, style, and strategy matter. From skater kids to street hustlers, this one’s for every dream chaser who never hits pause.',
+    manufactureAndCare: 'Machine wash cold.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
+    deliveryInfo: {
+      standardDelivery: '6-7 business days',
+      expressDelivery: '1-2 business days',
+      pincodeDelivery: true
+    },
+      youMayAlsoLike: [5, 9, 11]
   },
   {
     id: 5,
-    name: 'Slim Fit Jeans',
+    name: 'TRAP “Temple Hustle” Tee',
     brandLogo: '/assets/images/default-featured.png',
-    images: ['/assets/images/default-featured.png'],
-    price: '$89.99',
-    availability: 'Available online only',
-    category: 'Jeans',
-    collection: 'Essential Collection',
-    description: 'Modern slim fit jeans with stretch comfort technology.',
-    sizes: ['28', '30', '32', '34', '36'],
+    images: [
+      temple,
+      temple2,
+      temple3,
+      '/assets/images/default-featured.png'],
+    price: 'Rs. 839',
+    availability: 'Available',
+    category: 'T-Shirts',
+    collection: 'Bring your Childhood',
+    description: 'Run for Coins. Run from Demons. Run for Your Life.',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     isFeatured: true
+     keyHighlights: {
+      design: 'Front: Minimalist TEMPLE RUN logo – rugged and mysterious & Back: Bold full graphic with Guy Dangerous mid-run, surrounded by diamonds, coins & the Temple’s wrath',
+      fit: 'Oversized',
+      neck: 'Round Neck',
+      occasion: 'Street Wear',
+      sleeveStyle: 'Half Sleeve',
+      washCare: 'Gentle Machine Wash'
+    },
+    fullDescription: 'Straight from the golden jungle of nostalgia, this tee brings back those Temple Run nights—. Swiping left, dodging fire traps, and sprinting like your life depends on it. Because real life? Same vibes. Obstacles. No pause. No mercy. Just keep running.',
+    manufactureAndCare: 'Made from 100% premium cotton. Machine wash cold, tumble dry low. Do not bleach. Iron on reverse side if needed.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
+    deliveryInfo: {
+      standardDelivery: '6-7 business days',
+      expressDelivery: '1-2 business days',
+      pincodeDelivery: true
+    },
+    youMayAlsoLike: [4, 9, 12]
   },
   {
     id: 6,
-    name: 'Casual Sneakers',
+    name: 'TRAP Snake Emblem Tee',
     brandLogo: '/assets/images/default-featured.png',
-    images: ['/assets/images/default-featured.png'],
-    price: '$119.99',
+    images: [
+      snake,
+      snake2,
+      snake3,
+      snake4,
+      snake5,
+      snake6,
+      '/assets/images/default-featured.png'],
+    price: 'Rs. 635',
     availability: 'Available in all stores',
-    category: 'Footwear',
-    collection: 'Street Style',
-    description: 'Versatile sneakers perfect for everyday wear.',
-    sizes: ['7', '8', '9', '10', '11'],
+    category: 'T-shirts',
+    collection: 'Trap Themed',
+    description: 'Unleash your inner edge with the bold "TRAP" vertical logo, wrapped by a venomous red serpent—clean, fierce, and unapologetically street.',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     isFeatured: true,
     isNewArrival: true
+      keyHighlights: {
+      design: 'Striking snake & TRAP lettering in blood red',
+      fit: 'Regular Fit',
+      neck: 'Round Neck',
+      occasion: 'Street Wear',
+      sleeveStyle: 'Half Sleeve',
+      washCare: 'Gentle Machine Wash'
+    },
+    fullDescription: 'Premium Fabric – Ultra-soft 100% cotton for all-day comfort. Street-Ready Design – Striking snake & TRAP lettering in blood red. Minimal & Fierce – Compact artwork that pops without overpowering. Fade-Resistant Print – Built to last through heavy wear and wash. Perfect Fit – Regular unisex cut for both style and movement. Crafted for the Culture – Designed by TRAP for the streets, not the shelf.',
+    manufactureAndCare: 'Made from 100% premium cotton. Machine wash cold, tumble dry low. Do not bleach. Iron on reverse side if needed.',
+    returnPolicy: 'Returns & Exchange available. Items must be unworn, unwashed, and with original tags attached. You must contact costumer care for it within one day.',
+    deliveryInfo: {
+      standardDelivery: '6-7 business days',
+      expressDelivery: '1-2 business days',
+      pincodeDelivery: true
+    },
+    youMayAlsoLike: [7, 11, 15]
   },
   {
     id: 7,
